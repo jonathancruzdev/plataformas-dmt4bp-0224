@@ -1,8 +1,8 @@
 # 🎯 Temas de la clase
 - PHP y HTML
 - Condicionales
-- Bucles
-- Arrays
+- Bucles: For y While
+- Arrays Indexados
 
 ## Bucle for
 ``` php
