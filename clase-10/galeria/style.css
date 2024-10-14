@@ -1,0 +1,29 @@
+header {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-height: 70vh;
+}
+
+div.galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.foto {
+    width: 300px;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
