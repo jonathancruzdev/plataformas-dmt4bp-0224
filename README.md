@@ -1,4 +1,8 @@
-# Plataformas de Desarrollo
+# Clase 11 - Conexión con Base de Datos MySQL
 
- ## ✔ Clases
-- [Clase 08 - Bucles y Arrays Indexados](clase-08/) 
+## 🎯 Temas de la Clase
+- Conexión con base de Datos
+- Lenguaje SQL
+- Consultas para obtener Datos: SELECT
+- Conector Mysqli
+- Métodos: mysqli_connect()  y mysqli_fetch_assoc() 
