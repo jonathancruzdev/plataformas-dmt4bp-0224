@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-10-2024 a las 17:50:50
+-- Tiempo de generación: 21-10-2024 a las 20:36:35
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -49,8 +49,8 @@ INSERT INTO `categorias` (`id_categoria`, `nombre`) VALUES
 
 CREATE TABLE `productos` (
   `id_producto` int(11) NOT NULL,
-  `nombre` varchar(64) NOT NULL,
-  `descripcion` varchar(512) NOT NULL,
+  `titulo` varchar(64) NOT NULL,
+  `detalle` varchar(512) NOT NULL,
   `foto` varchar(128) NOT NULL,
   `precio` int(11) NOT NULL,
   `id_categoria` int(11) NOT NULL
@@ -60,9 +60,9 @@ CREATE TABLE `productos` (
 -- Volcado de datos para la tabla `productos`
 --
 
-INSERT INTO `productos` (`id_producto`, `nombre`, `descripcion`, `foto`, `precio`, `id_categoria`) VALUES
-(1, 'Lenovo Idea Pad', 'notebook lenovo', 'images/notebook.jpg', 430, 3),
-(2, 'Motorola G23', 'Celular 128gb', 'images/motorola.jpg', 300, 1),
+INSERT INTO `productos` (`id_producto`, `titulo`, `detalle`, `foto`, `precio`, `id_categoria`) VALUES
+(1, 'Lenovo Idea', 'notebook lenovo', 'images/notebook.jpg', 430, 3),
+(2, 'Motorola G23', 'Celular 128gb', 'images/motorola.jpg', 375, 1),
 (3, 'Tablet TCL 2', 'tables descripción', 'images/tablet.jpg', 500, 2);
 
 --
