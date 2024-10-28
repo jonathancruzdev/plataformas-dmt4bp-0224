@@ -3,6 +3,6 @@
 ## 🎯 Temas de la Clase
 - Conexión con base de Datos
 - Lenguaje SQL
-- Consultas para obtener Datos: SELECT
-- Conector Mysqli
-- Métodos: mysqli_connect()  y mysqli_fetch_assoc() 
+- Formularios
+- Métodos POST y GET
+- Pasar datos por medio de GET
